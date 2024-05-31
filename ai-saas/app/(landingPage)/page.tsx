@@ -1,8 +1,25 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 
 const DashBoardPage = () => {
   return (
-    <p>This is Landing Page</p>
+    <div>
+      This is landing page
+      <div>
+        <Link href='/sign-in'>
+          <Button>
+            Login
+          </Button>
+        </Link>
+        <Link href='/sign-up'>
+          <Button>
+            Register
+          </Button>
+        </Link>
+
+      </div>
+    </div>
   );
 }
 
