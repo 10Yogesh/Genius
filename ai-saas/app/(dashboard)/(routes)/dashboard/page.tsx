@@ -1,5 +1,5 @@
 
-import { UserButton } from "@clerk/nextjs";
+
 
 
 const DashBoardPage = () => {
@@ -7,7 +7,7 @@ const DashBoardPage = () => {
     <>
     <div>
           <p>This is dashboard (protected)</p>
-          <UserButton/>
+          
     </div>
     
     
